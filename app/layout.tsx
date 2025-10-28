@@ -2,6 +2,7 @@ import React, { FC } from 'react';
 import { ReactNode } from 'react';
 import './globals.css';
 import { Metadata } from 'next';
+import StarCanvas from '@/components/main/StarBackground';
 
 
 interface Props {
@@ -16,6 +17,7 @@ const RootLayer: FC<Props> = ({ children }) => {
   return (
     <html lang="en">
       <body>
+        <StarCanvas />
         {children}
       </body>
     </html>
