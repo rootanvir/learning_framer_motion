@@ -17,7 +17,7 @@ export const metadata:Metadata = {
 const RootLayer: FC<Props> = ({ children }) => {
   return (
     <html lang="en">
-      <body>
+      <body >
         <StarCanvas />
         <NavBar />
         {children}
