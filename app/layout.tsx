@@ -3,6 +3,7 @@ import { ReactNode } from 'react';
 import './globals.css';
 import { Metadata } from 'next';
 import StarCanvas from '@/components/main/StarBackground';
+import NavBar from '@/components/main/NavBar';
 
 
 interface Props {
@@ -18,6 +19,7 @@ const RootLayer: FC<Props> = ({ children }) => {
     <html lang="en">
       <body>
         <StarCanvas />
+        <NavBar />
         {children}
       </body>
     </html>
